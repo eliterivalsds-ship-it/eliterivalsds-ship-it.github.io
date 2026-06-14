@@ -47,8 +47,8 @@
                     Experience a stunning 3D mythological board game adventure with friends. Cast spells, strategize your moves, collect custom pets, and rise to glory!
                 </p>
                 <div id="download" class="pt-4 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
-                    <!-- Replace '#' with your live Google Play Store asset link if desired -->
-                    <a href="#" class="inline-flex items-center justify-center gap-3 bg-slate-950 hover:bg-slate-900 border border-slate-700 text-white px-6 py-3 rounded-xl font-medium shadow-xl transition transform hover:-translate-y-0.5">
+                    <!-- Google Play Store App Link -->
+                    <a href="https://play.google.com/store/apps/details?id=com.jiroworld.party&pcampaignid=web_share" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-3 bg-slate-950 hover:bg-slate-900 border border-slate-700 text-white px-6 py-3 rounded-xl font-medium shadow-xl transition transform hover:-translate-y-0.5">
                         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
                             <path d="M3,5.27V18.73L16.55,12L3,5.27M17.87,11.33L19.5,12.16L17.87,13L16.89,12.17L17.87,11.33M3,3.15L17.57,10.42L16.21,11.56L3,5V3.15M3,19V17.15L16.21,10.59L17.57,11.73L3,19Z" />
                         </svg>
@@ -60,13 +60,20 @@
                 </div>
             </div>
             
-            <!-- Graphic/Mockup Placeholder -->
-            <div class="flex justify-center relative">
-                <div class="w-72 h-72 md:w-96 md:h-96 rounded-3xl bg-gradient-to-tr from-purple-500/20 to-pink-500/20 border border-slate-700 shadow-2xl flex items-center justify-center relative backdrop-blur-sm">
-                    <span class="text-slate-400 text-sm font-mono">[ 3D Gameplay Mockup / Logo ]</span>
-                    <!-- Decorative glowing orbs behind visual -->
-                    <div class="absolute -inset-4 bg-purple-500/10 rounded-full blur-3xl -z-10 animate-pulse"></div>
+            <!-- YouTube Embedded Trailer -->
+            <div class="flex justify-center relative w-full">
+                <div class="w-full max-w-md aspect-video rounded-3xl bg-slate-950 border border-slate-700 shadow-2xl relative z-10 overflow-hidden">
+                    <iframe 
+                        class="w-full h-full" 
+                        src="https://www.youtube.com/embed/W0EXGx0Q38w" 
+                        title="Jiro World Party Trailer" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
                 </div>
+                <!-- Decorative background glow -->
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-purple-500/20 rounded-full blur-3xl -z-10 animate-pulse"></div>
             </div>
         </div>
     </section>
@@ -79,19 +86,16 @@
         </div>
         
         <div class="grid md:grid-cols-3 gap-8">
-            <!-- Feature 1 -->
             <div class="bg-slate-800/40 border border-slate-800 p-8 rounded-2xl space-y-4 hover:border-purple-500/30 transition">
                 <div class="w-12 h-12 rounded-xl bg-purple-500/10 border border-purple-500/30 flex items-center justify-center text-xl text-purple-400">🎲</div>
                 <h3 class="text-xl font-bold">3D Mythological Universe</h3>
                 <p class="text-slate-400 text-sm leading-relaxed">Immerse yourself in beautifully rendered environments inspired by grand lore, bringing game nights alive on your screen.</p>
             </div>
-            <!-- Feature 2 -->
             <div class="bg-slate-800/40 border border-slate-800 p-8 rounded-2xl space-y-4 hover:border-purple-500/30 transition">
                 <div class="w-12 h-12 rounded-xl bg-pink-500/10 border border-pink-500/30 flex items-center justify-center text-xl text-pink-400">✨</div>
                 <h3 class="text-xl font-bold">Cast Spells & Strategize</h3>
                 <p class="text-slate-400 text-sm leading-relaxed">It's not just about standard dice rolls. Deploy unique tactical action cards, drop hexes, and disrupt your opponents' progress.</p>
             </div>
-            <!-- Feature 3 -->
             <div class="bg-slate-800/40 border border-slate-800 p-8 rounded-2xl space-y-4 hover:border-purple-500/30 transition">
                 <div class="w-12 h-12 rounded-xl bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-xl text-blue-400">👥</div>
                 <h3 class="text-xl font-bold">Multiplayer Matchmaking</h3>
@@ -120,7 +124,6 @@
         <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-6">
             <p>&copy; 2026 Jiro World Studio. All rights reserved.</p>
             <div class="flex space-x-6">
-                <!-- Keep these placeholders clear for when you upload app store policy document paths -->
                 <a href="#" class="hover:text-slate-300 transition">Privacy Policy</a>
                 <a href="#" class="hover:text-slate-300 transition">Terms of Service</a>
             </div>
