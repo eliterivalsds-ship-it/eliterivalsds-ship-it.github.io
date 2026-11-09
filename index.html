@@ -22,6 +22,7 @@
             </div>
             <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
                 <a href="#features" class="hover:text-white transition">Features</a>
+                <a href="#games" class="hover:text-white transition">Our Games</a>
                 <a href="#about" class="hover:text-white transition">About</a>
                 <a href="#support" class="hover:text-white transition">Support</a>
             </nav>
@@ -99,6 +100,35 @@
         </div>
     </section>
 
+    <!-- Our Games Section -->
+    <section id="games" class="border-t border-slate-800 py-20 max-w-6xl mx-auto px-4">
+        <div class="text-center max-w-2xl mx-auto mb-12 space-y-3">
+            <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Our Games</h2>
+            <p class="text-slate-400">Made by Jiro World Studio, set in the same world.</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-slate-800/40 border border-slate-800 p-8 rounded-2xl space-y-4 hover:border-purple-500/30 transition">
+                <div class="w-12 h-12 rounded-xl bg-purple-500/10 border border-purple-500/30 flex items-center justify-center text-xl">🎲</div>
+                <h3 class="text-xl font-bold">Jiro World Party</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">A 3D mythological multiplayer board game. Cast spells, collect pets and play with friends.</p>
+                <div class="flex flex-wrap gap-4 text-sm pt-2">
+                    <a href="https://play.google.com/store/apps/details?id=com.jiroworld.party&pcampaignid=web_share" target="_blank" rel="noopener noreferrer" class="text-purple-400 font-semibold hover:text-purple-300 transition">Google Play</a>
+                    <a href="https://sites.google.com/view/jiro-world-party-legal-privacy/home" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-200 transition">Privacy Policy</a>
+                    <a href="https://sites.google.com/view/jiro-world-party-legal-terms/home" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-200 transition">Terms of Service</a>
+                </div>
+            </div>
+            <div id="aura-blast" class="bg-slate-800/40 border border-slate-800 p-8 rounded-2xl space-y-4 hover:border-pink-500/30 transition">
+                <div class="w-12 h-12 rounded-xl bg-pink-500/10 border border-pink-500/30 flex items-center justify-center text-xl">✨</div>
+                <h3 class="text-xl font-bold">Aura Blast: Match 3 Saga <span class="ml-2 align-middle text-xs font-semibold px-2 py-1 rounded-full border border-pink-500/30 bg-pink-500/10 text-pink-300">Coming soon to Google Play</span></h3>
+                <p class="text-slate-400 text-sm leading-relaxed">A story-driven match-3 puzzle game with 310 levels. Match the five Marga stones, build Gems, Shields, Traps and Bandhan Stones, and play through chapters of the Jiro World.</p>
+                <div class="flex flex-wrap gap-4 text-sm pt-2">
+                    <a href="aura-blast/privacy.html" class="text-slate-400 hover:text-slate-200 transition">Privacy Policy</a>
+                    <a href="aura-blast/terms.html" class="text-slate-400 hover:text-slate-200 transition">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- About / Contact Support Section -->
     <section id="about" class="border-t border-slate-800 bg-slate-950/40 py-20">
         <div class="max-w-4xl mx-auto px-4 text-center space-y-8" id="support">
@@ -118,10 +148,12 @@
     <footer class="border-t border-slate-800 bg-slate-950 text-slate-500 py-12 text-sm">
         <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-6">
             <p>&copy; 2026 Jiro World Studio. All rights reserved.</p>
-            <div class="flex space-x-6">
+            <div class="flex flex-wrap justify-center gap-x-6 gap-y-2">
                 <!-- Updated Legal Links -->
-                <a href="https://sites.google.com/view/jiro-world-party-legal-privacy/home" target="_blank" rel="noopener noreferrer" class="hover:text-slate-300 transition">Privacy Policy</a>
-                <a href="https://sites.google.com/view/jiro-world-party-legal-terms/home" target="_blank" rel="noopener noreferrer" class="hover:text-slate-300 transition">Terms of Service</a>
+                <a href="https://sites.google.com/view/jiro-world-party-legal-privacy/home" target="_blank" rel="noopener noreferrer" class="hover:text-slate-300 transition">Party Privacy Policy</a>
+                <a href="https://sites.google.com/view/jiro-world-party-legal-terms/home" target="_blank" rel="noopener noreferrer" class="hover:text-slate-300 transition">Party Terms of Service</a>
+                <a href="aura-blast/privacy.html" class="hover:text-slate-300 transition">Aura Blast Privacy Policy</a>
+                <a href="aura-blast/terms.html" class="hover:text-slate-300 transition">Aura Blast Terms of Service</a>
             </div>
         </div>
     </footer>
